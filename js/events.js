@@ -6,14 +6,14 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load',function(){
-    $('img').addClass('tasty');
+  $('img').on('load',function(img){
+    img.addClass('tasty');
   })
 }
 
 function pressIt(){
-  $('img').on('load',function(){
-    $('img').addClass('tasty');
+  $('img').on('keydown',function(key){
+    if()
   })
 }
 
