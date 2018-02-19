@@ -5,6 +5,12 @@ function getIt(){
   })
 }
 
+function frameIt(){
+  $('.tasty').on('load',function(){
+    $this.css()
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
