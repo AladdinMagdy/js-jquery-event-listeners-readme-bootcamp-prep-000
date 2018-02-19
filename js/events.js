@@ -13,7 +13,7 @@ function frameIt(){
 
 function pressIt(){
   $('img').on('keydown',function(key){
-    if()
+    if(key.which == )
   })
 }
 
